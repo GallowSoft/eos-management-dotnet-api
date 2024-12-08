@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{00C79681-017E-436D-80E7-EECD229E3778}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EosManagement.Core", "src\EosManagement.Core\EosManagement.Core.csproj", "{181CBD57-397E-427B-95DA-7AA37C3A2081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EosManagement.Infrastructure", "src\EosManagement.Infrastructure\EosManagement.Infrastructure.csproj", "{70BE75B9-7C55-4FB8-ADEC-C0808DDC8C58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EosManagement.Api", "src\EosManagement.Api\EosManagement.Api.csproj", "{34D412F8-0DC1-4065-8758-FC4F15552173}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B61755B6-A99A-48BE-B2A0-D188B52D2974}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EosManagement.UnitTests", "tests\EosManagement.UnitTests\EosManagement.UnitTests.csproj", "{8CE65107-C183-46E9-8F1D-66E62B8C794C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EosManagement.IntegrationTests", "tests\EosManagement.IntegrationTests\EosManagement.IntegrationTests.csproj", "{F3BD66F5-476B-417C-928E-7CE55A83DAB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{181CBD57-397E-427B-95DA-7AA37C3A2081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{181CBD57-397E-427B-95DA-7AA37C3A2081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{181CBD57-397E-427B-95DA-7AA37C3A2081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{181CBD57-397E-427B-95DA-7AA37C3A2081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70BE75B9-7C55-4FB8-ADEC-C0808DDC8C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70BE75B9-7C55-4FB8-ADEC-C0808DDC8C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70BE75B9-7C55-4FB8-ADEC-C0808DDC8C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70BE75B9-7C55-4FB8-ADEC-C0808DDC8C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34D412F8-0DC1-4065-8758-FC4F15552173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D412F8-0DC1-4065-8758-FC4F15552173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D412F8-0DC1-4065-8758-FC4F15552173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D412F8-0DC1-4065-8758-FC4F15552173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE65107-C183-46E9-8F1D-66E62B8C794C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE65107-C183-46E9-8F1D-66E62B8C794C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE65107-C183-46E9-8F1D-66E62B8C794C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE65107-C183-46E9-8F1D-66E62B8C794C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3BD66F5-476B-417C-928E-7CE55A83DAB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3BD66F5-476B-417C-928E-7CE55A83DAB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3BD66F5-476B-417C-928E-7CE55A83DAB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3BD66F5-476B-417C-928E-7CE55A83DAB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{181CBD57-397E-427B-95DA-7AA37C3A2081} = {00C79681-017E-436D-80E7-EECD229E3778}
+		{70BE75B9-7C55-4FB8-ADEC-C0808DDC8C58} = {00C79681-017E-436D-80E7-EECD229E3778}
+		{34D412F8-0DC1-4065-8758-FC4F15552173} = {00C79681-017E-436D-80E7-EECD229E3778}
+		{8CE65107-C183-46E9-8F1D-66E62B8C794C} = {B61755B6-A99A-48BE-B2A0-D188B52D2974}
+		{F3BD66F5-476B-417C-928E-7CE55A83DAB0} = {B61755B6-A99A-48BE-B2A0-D188B52D2974}
+	EndGlobalSection
+EndGlobal
